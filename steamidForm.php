@@ -1,5 +1,5 @@
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="steamid.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <form onsubmit="MakeSteamidRequest(this.steam.value);" action="javascript:void(0);">
 <input type="search" style="width:50%" id="steam" name="steam" size="52" placeholder="Type a Steam ID or a Community ID" />
 <input type="submit" value="Search" />
