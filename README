@@ -23,8 +23,9 @@ Add this to you PHP page that you want to include the Tool on. (must be PHP for 
 
 thats it.
 Now browse to the page and see if it worked.
+Type in either the players steam id, community id, or community url.
 
-there is a line in the steamidForm.php file that should not be remved at all.
+There is a line in the steamidForm.php file that should not be remved at all.
 Steam required that you include a link to steampowered.com on the pages that use any steam web api or community stats.
 DO NOT!!! remove the line that says:
 
