@@ -1,0 +1,29 @@
+Find Steam player info and VAC status.
+
+//Changelog
+*****************
+
+4-4-2012
+======
++ steamidForm.php
++ steamidProcess.php
++ steamid.js
++ README
+
+//
+DJWolf
+
+To include the steam player search tool in a page,
+Unzip the steamidProcess.php, the steamidForm.php and the steamid.js file to the same directory as the page you want the tool on.
+Add this to you PHP page that you want to include the Tool on. (must be PHP for now) :
+
+<?php require("steamidForm.php"); ?>
+
+thats it.
+Now browse to the page and see if it worked.
+
+there is a line in the steamidForm.php file that should not be remved at all.
+Steam required that you include a link to steampowered.com on the pages that use any steam web api or community stats.
+DO NOT!!! remove the line that says:
+
+<a href="http://steampowered.com" target="_blank">Powered By Steam</a></p>.
